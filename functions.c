@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_char - Prints a char
+ * print_char - by Maxwell & Kagiso Prints a char
  * @types: List  of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -18,7 +18,7 @@ int print_char(va_list types, char buffer[],
 }
 
 /**
- * print_string - Prints a string
+ * print_string - By Maxwell & Kagiso Prints a string
  * @types: List  of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -72,7 +72,7 @@ int print_string(va_list types, char buffer[],int flags, int width, int precisio
 }
 
 /**
- * print_percent - Prints a percent sign
+ * print_percent - By Maxwell & Kagiso Prints a percent sign
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -94,7 +94,7 @@ int print_percent(va_list types, char buffer[],
 }
 
 /**
- * print_int - Print int
+ * print_int - By Maxwell & Kagiso Print int
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -136,7 +136,7 @@ int print_int(va_list types, char buffer[],
 }
 
 /**
- * print_binary - Prints an unsigned number
+ * print_binary - By Kagiso & Maxwell Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
