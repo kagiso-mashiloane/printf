@@ -2,8 +2,13 @@
 
 /****************** PRINT POINTER ******************/
 /**
+<<<<<<< HEAD
  * print_pointer - Prints the value of a pointer variable
  * @types: List of arguments
+=======
+ * print_pointer -By Maxwell & Kagiso Prints the value of a pointer variable
+ * @types: List  of arguments
+>>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -52,7 +57,7 @@ int print_pointer(va_list types, char buffer[],
 
 /************************* PRINT NON PRINTABLE *************************/
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
+ * print_non_printable - By Maxwell & Kagiso Prints ascii codes in hexa of non printable chars
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -90,7 +95,7 @@ int print_non_printable(va_list types, char buffer[],
 
 /************************* PRINT REVERSE *************************/
 /**
- * print_reverse - Prints reverse string.
+ * print_reverse - By Kagiso & Maxwell Prints reverse string.
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -132,7 +137,7 @@ int print_reverse(va_list types, char buffer[],
 }
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
- * print_rot13string - Print a string in rot13.
+ * print_rot13string -By Maxwell & Kagiso Print a string in rot13.
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags

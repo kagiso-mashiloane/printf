@@ -3,8 +3,13 @@
 /************************* PRINT CHAR *************************/
 
 /**
+<<<<<<< HEAD
  * print_char - Prints a char
  * @types: List of arguments
+=======
+ * print_char - by Maxwell & Kagiso Prints a char
+ * @types: List  of arguments
+>>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: Width
@@ -21,8 +26,13 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
+<<<<<<< HEAD
  * print_string - Prints a string
  * @types: List of arguments
+=======
+ * print_string - By Maxwell & Kagiso Prints a string
+ * @types: List  of arguments
+>>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -75,7 +85,7 @@ int print_string(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints a percent sign
+ * print_percent - By Maxwell & Kagiso Prints a percent sign
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -97,7 +107,7 @@ int print_percent(va_list types, char buffer[],
 }
 /************************* PRINT INT *************************/
 /**
- * print_int - Print int
+ * print_int - By Maxwell & Kagiso Print int
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -139,7 +149,7 @@ int print_int(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints an unsigned number
+ * print_binary - By Kagiso & Maxwell Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
