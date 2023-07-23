@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - Printf function
+ * _printf - Printf function by Maxwell & Kagiso
  * @format: format.
  * Return: Printed chars.
  */
