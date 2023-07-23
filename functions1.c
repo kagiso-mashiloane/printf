@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_unsigned - Prints an unsigned number
+ * print_unsigned - By Maxwell & Kagiso Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -33,7 +33,7 @@ u	if (num == 0)
 }
 
 /**
- * print_octal - Prints an unsigned number in octal notation
+ * print_octal - By Maxwell & Kagiso Prints an unsigned number in octal notation
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -71,7 +71,7 @@ int print_octal(va_list types, char buffer[],
 }
 
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
+ * print_hexadecimal -By Maxwell & Kagiso Prints an unsigned number in hexadecimal notation
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -88,7 +88,7 @@ int print_hexadecimal(va_list types, char buffer[],
 }
 
 /**
- * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
+ * print_hexa_upper -By Maxwell & Kagiso Prints an unsigned number in upper hexadecimal notation
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -104,7 +104,7 @@ int print_hexa_upper(va_list types, char buffer[],int flags, int width, int prec
 }
 
 /**
- * print_hexa - Prints a hexadecimal number in lower or upper
+ * print_hexa - By Kagiso & Maxwell Prints a hexadecimal number in lower or upper
  * @types: List of arguments
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
