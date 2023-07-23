@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_pointer - Prints the value of a pointer variable
+ * print_pointer -By Maxwell & Kagiso Prints the value of a pointer variable
  * @types: List  of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -49,7 +49,7 @@ int print_pointer(va_list types, char buffer[],int flags, int width, int precisi
 }
 
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
+ * print_non_printable - By Maxwell & Kagiso Prints ascii codes in hexa of non printable chars
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
@@ -84,7 +84,7 @@ int print_non_printable(va_list types, char buffer[],int flags, int width, int p
 }
 
 /**
- * print_reverse - Prints reverse string.
+ * print_reverse - By Kagiso & Maxwell Prints reverse string.
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
@@ -125,7 +125,7 @@ int print_reverse(va_list types, char buffer[],int flags, int width, int precisi
 }
 
 /**
- * print_rot13string - Print a string in rot13.
+ * print_rot13string -By Maxwell & Kagiso Print a string in rot13.
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
