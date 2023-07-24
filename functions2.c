@@ -2,13 +2,11 @@
 
 /****************** PRINT POINTER ******************/
 /**
-<<<<<<< HEAD
  * print_pointer - Prints the value of a pointer variable
  * @types: List of arguments
-=======
- * print_pointer -By Maxwell & Kagiso Prints the value of a pointer variable
+ * print_pointer -By Maxwell & Kagiso Prints the value,
+ *           of a pointer variable
  * @types: List  of arguments
->>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -57,7 +55,8 @@ int print_pointer(va_list types, char buffer[],
 
 /************************* PRINT NON PRINTABLE *************************/
 /**
- * print_non_printable - By Maxwell & Kagiso Prints ascii codes in hexa of non printable chars
+ * print_non_printable - By Maxwell & Kagiso Prints ascii codes,
+ * in hexa of non printable chars
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags

@@ -3,13 +3,10 @@
 /************************* PRINT CHAR *************************/
 
 /**
-<<<<<<< HEAD
  * print_char - Prints a char
  * @types: List of arguments
-=======
  * print_char - by Maxwell & Kagiso Prints a char
  * @types: List  of arguments
->>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: Width
@@ -26,13 +23,10 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
-<<<<<<< HEAD
  * print_string - Prints a string
  * @types: List of arguments
-=======
  * print_string - By Maxwell & Kagiso Prints a string
  * @types: List  of arguments
->>>>>>> bddb630150550fd93a25205fe8af9ea3f9fb1197
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
