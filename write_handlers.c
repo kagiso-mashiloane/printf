@@ -79,7 +79,7 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num -By Maxwell and Kagiso Write a number using a bufffer
+ * write_num - Write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
@@ -138,7 +138,7 @@ int write_num(int ind, char buffer[],
 }
 
 /**
- * write_unsgnd - By Maxwell and Kagiso Writes an unsigned number
+ * write_unsgnd - Writes an unsigned number
  * @is_negative: Number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
  * @buffer: Array of chars
