@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 	i = print;
 	while (format && format[i] != '\0')
 	{
-	if (format[i] == '%')
+	if (format[i] != '%')
 		{
 			buffer[buff_ind++] = format[i];
 			if (buff_ind == BUFF_SIZE)
@@ -44,4 +44,16 @@ int _printf(const char *format, ...)
 	va_end(list);
 	print_buff(buffer, &buff_ind);
 	return (printed_chars);
+}
+/**
+ * print_buff - by Maxwell & Kagiso Print the content,
+ * of the buffer if it exist
+ * @buffer: Array of chars
+ * @buff_ind: it represent the length
+ */
+void print_buff(char buffer[], int *buff_ind)
+{
+	if (*buff_ind > 0)
+		write(1, &buffer[0], *buff_ind);
+	*buff_ind = 0;
 }
