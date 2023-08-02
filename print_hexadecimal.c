@@ -12,7 +12,6 @@
  */
 int _print_hexadecimal(va_list list, char buffer[],
 	int field_width, int flag, int size, int precision)
-
 {
 	return (print_hexa(list, "0123456789abcdef", buffer,
 		precision, size, flag, 'x', field_width));
