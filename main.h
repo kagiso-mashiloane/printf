@@ -66,7 +66,7 @@ int _print_reverse(va_list list, char buffer[],
 int _print_rot13string(va_list list, char buffer[],
 	int field_width, int flag, int size, int precision);
 int _print_percent(va_list list, char buffer[],
-        int field_width, int flag, int size, int precision);
+	int field_width, int flag, int size, int precision);
 int _print_string(va_list list, char buffer[],
 	int field_width, int flag, int size, int precision);
 int print_types(const char *fmt, int *ind, va_list list, char buffer[],
@@ -79,6 +79,6 @@ int _hexa_code(char ascii_code, char buffer[], int i);
 int is_digit(char c);
 
 long int convert_size_num(long int num, int size);
-long int con_size_unsgnd(unsigned long int num, int size)
+long int con_size_unsgnd(unsigned long int num, int size);
 
 #endif
