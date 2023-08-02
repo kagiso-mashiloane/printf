@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flag- by Kagiso & Maxwell Calculates active flags
+ * flag - by Kagiso & Maxwell Calculates active flags
  * @format: print the arg in a formatted string
  * @i: interger.
  * Return: return flag
@@ -8,7 +8,7 @@
 int flag(const char *format, int *i)
 {
 	const char buff[] = {'-', '+', '0', '#', ' ', '\0'};
-	const int len[] = { F_ZERO, F_SPACE, F_HASH, F_MINUS, F_PLUS, 0};
+	const int len[] = { F_MINUS, F_PLUS, F_ZERO, F_HASH, F_SPACE,  F_MINUS,  0};
 	int k, j;
 	int flag = 0;
 
