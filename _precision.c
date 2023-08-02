@@ -2,8 +2,8 @@
 /**
  * _precision - By Maxwell & Kagiso Calculates the precision for printing
  * @format: print the arguments in a formatted string
- * @i: arguments to be printed.
- * @list:List of arguments to be printed.
+ * @i: variable int.
+ * @list: List of arguments to be printed.
  * Return: return precision.
  */
 int _precision(const char *format, int *i, va_list list)
