@@ -1,8 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
+
 #define BUFF_SIZE 1024
 #define UNUSED(x) (void)(x)
+
 #define F_ZERO 4
 #define F_HASH 8
 #define F_SPACE 16
@@ -10,10 +15,6 @@
 #define F_PLUS 2
 #define S_LONG 2
 #define S_SHORT 1
-
-#include <stdarg.h>
-#include <stdio.h>
-#include <unistd.h>
 
 /**
  * struct fmt - Struct op
@@ -35,13 +36,14 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
-int _precision(const char *format, int *i, va_list list);
+int get_precision(const char *format, int *i, va_list list);
 int _printf(const char *format, ...);
 void print_buff(char buffer[], int *buff_ind);
 void print_buff(char buffer[], int *buff_ind);
 int _size(const char *format, int *i);
 int _width(const char *format, int *i, va_list list);
 int flag(const char *format, int *i);
+
 
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size);
@@ -73,6 +75,18 @@ int print_types(const char *fmt, int *ind, va_list list, char buffer[],
 	int field_width, int flag, int size, int precision);
 int _print_unsigned(va_list list, char buffer[],
 	int field_width, int flag, int size, int precision);
+
+int list_variables_char(char c, char buffer[],
+	int field_width, int flag, int size, int precision);
+int variable_number(int is_negative, int ind, char buffer[],
+	int field_width, int flag, int size, int precision);
+int variable_num(int ind, char buffer[], int field_width,
+	int flag, int precision, int len, char buff, char extraC);
+int variable_unsigned(int is_negative, int ind, char buffer[],
+	int field_width, int flag, int size, int precision);
+int write_pointer(char buffer[], int ind, int len,
+	char buff, char extraC, int field_width,
+	int flag, int buff_start);
 
 int is_printable(char c);
 int _hexa_code(char ascii_code, char buffer[], int i);
